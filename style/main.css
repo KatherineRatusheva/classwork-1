@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+/*round--------------------------------------------------*/
+.round {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    background-color: red;
+}
+
+/*round-position------------------------------------------*/
+.round--top-right {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.round--top-right:hover {
+    background-color: turquoise;
+    z-index: 10;
+}
+
+.round--top-left {
+    position: absolute;
+    top: 10%;
+    left: 65%;    
+}
+
+.round--top-left:hover {
+    background-color: yellow;
+    z-index: 10;
+}
+
+.round--bottom-right {
+    position: absolute;
+    bottom: 10%;
+    left: 65%;   
+}
+
+.round--bottom-right:hover {
+    background-color: yellowgreen;
+    z-index: 10;
+}
+
+.round--bottom-left {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;    
+}
+
+.round--bottom-left:hover {
+    background-color: #cc33ff;
+    z-index: 10;
+}
+
+/*square-blue------------------------------------------*/
+.square {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: #0099ff;
+}
+
+.square:hover {
+    background-color: yellow;
+    z-index: 2;
+}
+
+/*square-orange------------------------------------------*/
+.square-orange {
+    position: absolute;
+    top: 35%;
+    right: 35%;
+    width: 30%;
+    height: 30%;
+    background-color: orange;
+    border-radius: 25%;
+}
+
